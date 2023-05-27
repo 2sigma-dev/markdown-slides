@@ -11,14 +11,14 @@ from .pdf import export as pdf_export
 DATA_WORD = "DATA"
 TITLE_WORD = "TITLE"
 OPTIONS_WORD = "Reveal.initialize({"
-THEME_WORD = '<link rel="stylesheet" href="dist/theme'
-CODE_THEME_WORD = '<link rel="stylesheet" href="plugin/highlight'
+THEME_WORD = '<link rel="stylesheet" href="https://storage.googleapis.com/2sigma.school/s/slides/dist/theme'
+CODE_THEME_WORD = '<link rel="stylesheet" href="https://storage.googleapis.com/2sigma.school/s/slides/plugin/highlight'
 
 TITLE_TEMPLATE = "<title>{}</title>"
 SECTION_TEMPLATE = "<section data-markdown {}><textarea data-template>\n{}\n</textarea></section>"
 VERTICAL_SECTION_TEMPLATE = "<section>\n{}\n</section>"
-THEME_TEMPLATE = '<link rel="stylesheet" href="dist/theme/{}.css" id="theme">'
-CODE_THEME_TEMPLATE = '<link rel="stylesheet" href="plugin/highlight/{}.min.css" id="highlight-theme">'
+THEME_TEMPLATE = '<link rel="stylesheet" href="https://storage.googleapis.com/2sigma.school/s/slides/dist/theme/{}.css" id="theme">'
+CODE_THEME_TEMPLATE = '<link rel="stylesheet" href="https://storage.googleapis.com/2sigma.school/s/slides/plugin/highlight/{}.min.css" id="highlight-theme">'
 
 # Read both comment formats (first one is CommonMark compliant, second one
 # is common format).
